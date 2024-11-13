@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Calculadora de BMI (<i>Body Mass Index</i>)</h1>
+        <h2 class="head2">© <a href="https://thomraider12.github.io/thomraider12">Tomás Afonso</a> 2024</h2>
+        Altura (cm):
+        <input type="number" class="input" id="height" value="170" placeholder="Escrever altura em cm...">
+        Peso (kg):
+        <input type="number" class="input" id="weight" value="65" placeholder="Escrever peso em kg...">
+        <button class="btn" id="btn">Calcular BMI</button>
+        <input disabled type="text" class="input" id="bmi-result">
+        <h4 class="info-text">Condição do Peso: <span id="weight-condition"></span></h4>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
